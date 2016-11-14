@@ -17,7 +17,24 @@ namespace ConsoleApplication
     	//2
         public static void Main(string[] args)
         {
+			Console.OutputEncoding = System.Text.Encoding.Unicode;
+        	Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Hello World!");
+
+			Console.WriteLine("Задача №3. Максимальное число");
+			int a,b;
+			Console.WriteLine("Введите два целых числа: ");
+			a=int.Parse(Console.ReadLine());
+			b=int.Parse(Console.ReadLine());
+			Console.Write("Max = ");
+			if (a > b)
+				{
+					Console.WriteLine(a);
+				}
+				else
+				{
+					Console.WriteLine(b);
+				};
         }
     }
 }

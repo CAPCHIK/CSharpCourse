@@ -31,7 +31,18 @@ namespace ConsoleApplication
 		//НЕТ
         public static void Main(string[] args)
         {
+			Console.OutputEncoding = System.Text.Encoding.Unicode;
+        	Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Hello World!");
+
+			Console.WriteLine("Задача №1. Четность");
+			int a, b, c, k;
+			Console.WriteLine("Введите три целых числа A, B, C");
+			a = int.Parse(Console.ReadLine());
+			b = int.Parse(Console.ReadLine());
+			c = int.Parse(Console.ReadLine());
+			
+
         }
     }
 }
