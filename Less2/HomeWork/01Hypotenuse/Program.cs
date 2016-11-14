@@ -35,7 +35,7 @@ namespace ConsoleApplication
 			b = int.Parse(Console.ReadLine());
 			c = Math.Sqrt(a*a+b*b);
 			Console.Write("Гепотенуза = ");
-			Console.WriteLine(c);
+			Console.WriteLine(c); // не знаю как вывести с точностью до одного знака после запятой(
 
         }
     }
