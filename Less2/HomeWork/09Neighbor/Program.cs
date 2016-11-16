@@ -29,7 +29,29 @@ namespace ConsoleApplication
 		//2
 		public static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Hello World!");
+
+			Console.WriteLine("Задача №9. Соседние элементы");
+			int n, k;
+			Console.Write("Введите N = ");
+			n = int.Parse(Console.ReadLine());
+			int[] element  = new int[n];
+			Console.Write("Введите элементы массива: ");
+			for (int i = 0; i<=n; i++)
+			{
+				element[i] = int.Parse(Console.ReadLine());
+			}
+			k = 0;
+			for (int i = 1; i<=n-1; i++)
+			{
+				if ( (element[i] > element[i-1]) & (element[i] > element[i+1]) )
+						k++;
+			}
+
+			Console.Write ("К = ");
+			Console.WriteLine (k);
         }
     }
 }

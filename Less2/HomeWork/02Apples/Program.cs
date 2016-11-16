@@ -20,7 +20,19 @@ namespace ConsoleApplication
 
         public static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Hello World!");
+
+			Console.WriteLine("Задача №2. Яблоки");
+            int n, k, c;
+            Console.Write("Кол-во школьников: ");
+            n = int.Parse(Console.ReadLine());
+            Console.Write("Кол-во яблок: ");
+            k = int.Parse(Console.ReadLine());
+            c = k % n;
+            Console.Write("Яблок в корзине: ");
+            Console.WriteLine(c);
         }
     }
 }
