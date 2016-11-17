@@ -27,9 +27,22 @@ namespace ConsoleApplication
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
 
-			int a = Console.ReadLine();
+			int a = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Hello World!");
+			int b = int.Parse(Console.ReadLine());
+
+
+			if( (a < 1000 || a > 0) && (b < 1000 || b > 0)){
+				double hyp = Math.Sqrt(a*a + b*b);
+
+					Console.WriteLine(hyp);
+
+			}
+
+
+									 
+
+           
         }
     }
 }
