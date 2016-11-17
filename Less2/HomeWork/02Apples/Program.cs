@@ -20,7 +20,10 @@ namespace ConsoleApplication
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int N =int.Parse(Console.ReadLine());
+            int K = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(K % N);
         }
     }
 }
