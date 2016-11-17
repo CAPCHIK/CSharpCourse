@@ -23,7 +23,7 @@ namespace ConsoleApplication
 		//подсказка : int.Parse("23");
         public static void Main(string[] args)
         {
-
+hello
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
 
