@@ -27,6 +27,7 @@ namespace ConsoleApplication
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
 
+			int a = Console.ReadLine();
 
             Console.WriteLine("Hello World!");
         }
