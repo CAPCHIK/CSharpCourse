@@ -17,7 +17,18 @@ namespace ConsoleApplication
     	//2
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a, b;
+            a = Convert.ToInt32(Console.ReadLine());
+            b = Convert.ToInt32(Console.ReadLine());
+            if (a > b)
+            {
+                Console.WriteLine(a);
+            }
+            else
+            {
+                Console.WriteLine(b);
+            }
+            Console.ReadLine();
         }
     }
 }
