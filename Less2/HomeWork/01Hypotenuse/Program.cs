@@ -23,12 +23,16 @@ namespace ConsoleApplication
 		//подсказка : int.Parse("23");
         public static void Main(string[] args)
         {
-
+            int a=0;
+            int b=0;
+            Double c;
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
-
-
-            Console.WriteLine("Hello World!");
+           a= Convert.ToInt32(Console.ReadLine());
+           b= Convert.ToInt32(Console.ReadLine());
+            c = Math.Pow(Math.Pow(a, 2) + Math.Pow(b, 2), 0.5);
+            Console.WriteLine(c);
+            Console.ReadLine();
         }
     }
 }
