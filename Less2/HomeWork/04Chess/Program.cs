@@ -40,6 +40,7 @@ namespace ConsoleApplication
 			int b1 = int.Parse(Console.ReadLine());
 			int a2 = int.Parse(Console.ReadLine());
 			int b2 = int.Parse(Console.ReadLine());
+			
 		if((a1 >=1 && a1 <=8) && (b1 >=1 && b1 <=8) && (a2 >=1 && a2 <=8) && (b2 >=1 && b2 <=8)){
 			if(a1 == a2 && b1 == b2){
 				Console.WriteLine("Нет");
