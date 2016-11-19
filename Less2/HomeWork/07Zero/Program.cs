@@ -34,7 +34,18 @@ namespace ConsoleApplication
 		//2
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int N = int.Parse(Console.ReadLine());
+			int count = 0;
+			for(int i = 0 ; i < N ; i++ ){
+
+				int a = int.Parse(Console.ReadLine());
+
+				if(a % 3 == 0){
+					count++;
+				}
+
+			}	
+			Console.WriteLine(count);		
         }
     }
 }
