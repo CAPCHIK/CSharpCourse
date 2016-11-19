@@ -17,7 +17,28 @@ namespace ConsoleApplication
     	//2
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+			Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
+			
+            int a = int.Parse(Console.ReadLine());
+			int b = int.Parse(Console.ReadLine());
+
+			if(a > b){
+
+				int max = a;
+				Console.WriteLine(max);
+
+			}else if(b > a){
+
+				int max = b;
+				Console.WriteLine(max);
+
+			}else{
+
+				Console.WriteLine("Они равны!");
+
+			}
+
         }
     }
 }

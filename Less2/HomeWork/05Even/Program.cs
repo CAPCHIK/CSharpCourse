@@ -31,7 +31,42 @@ namespace ConsoleApplication
 		//НЕТ
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+			Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
+
+            int a = int.Parse(Console.ReadLine());
+			int b = int.Parse(Console.ReadLine());
+			int c = int.Parse(Console.ReadLine());
+
+			if ((a > 10000 || a < -10000) && (b > 10000 || b < -10000) && (c > 10000 || c < -10000) ){
+
+					Console.WriteLine("НЕТ");
+
+			}else{
+				
+				if(a % 2 == 0 || b % 2 == 0 || c % 2 == 0){
+
+					if(a % 2 != 0 || b % 2 != 0 || c % 2 != 0){
+
+						Console.WriteLine("ДА");
+
+					}else{
+
+						Console.WriteLine("НЕТ");
+
+					}
+
+					
+
+				}else{
+
+					Console.WriteLine("НЕТ");
+
+				}
+
+			}
+
         }
     }
 }
