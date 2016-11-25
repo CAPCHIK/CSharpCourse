@@ -33,12 +33,17 @@ namespace ConsoleApplication
             Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Hello World!");
 
+			var a = "12 23 554 1";
+			var b = a.Split(' ');
+			Console.WriteLine(b);
+
 			Console.WriteLine("Задача №9. Соседние элементы");
 			int n, k;
 			Console.Write("Введите N = ");
 			n = int.Parse(Console.ReadLine());
 			int[] element  = new int[n];
 			Console.Write("Введите элементы массива: ");
+			string s.
 			for (int i = 0; i<=n; i++)
 			{
 				element[i] = int.Parse(Console.ReadLine());
