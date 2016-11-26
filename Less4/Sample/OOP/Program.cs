@@ -18,7 +18,7 @@ namespace Less4.Sample.OOP
             */
 
             //Section Caculator
-            Calculator calc = new Calculator();
+            /*Calculator calc = new Calculator();
 
             int summa = calc.Sum(12, 41);
             Console.WriteLine(summa);
@@ -32,7 +32,16 @@ namespace Less4.Sample.OOP
             //Можем вызвать один метод, с разными параметрами!
             calc.ShowResult(summa);
             calc.ShowResult(devide);
+            */
 
+            //Section StaticClass
+            //Создадим несколько экземпляров данного класса
+            new StaticClass();
+            new StaticClass();
+            new StaticClass();
+            new StaticClass();
+            //И узнаем, сколько их было создано
+            Console.WriteLine(StaticClass.Count);
 
         }
     }
