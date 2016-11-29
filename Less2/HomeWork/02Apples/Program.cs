@@ -20,7 +20,12 @@ namespace ConsoleApplication
 
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int k;
+            int n;
+            k = Convert.ToInt32(Console.ReadLine());
+            n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(k%n);
+            Console.ReadLine();
         }
     }
 }
