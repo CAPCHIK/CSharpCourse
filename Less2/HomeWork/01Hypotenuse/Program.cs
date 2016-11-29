@@ -23,12 +23,20 @@ namespace ConsoleApplication
 		//подсказка : int.Parse("23");
         public static void Main(string[] args)
         {
-
 			Console.OutputEncoding = System.Text.Encoding.Unicode;
             Console.InputEncoding = System.Text.Encoding.Unicode;
-
-
             Console.WriteLine("Hello World!");
+
+			Console.WriteLine("Задача №1. Гипотенуза");
+			int a, b;
+			double c;
+			Console.WriteLine("Введите значение катетов: ");
+			a = int.Parse(Console.ReadLine());
+			b = int.Parse(Console.ReadLine());
+			c = Math.Sqrt(a*a+b*b);
+			Console.Write("Гипотенуза = ");
+			Console.WriteLine(c); // не знаю как вывести с точностью до одного знака после запятой(
+
         }
     }
 }

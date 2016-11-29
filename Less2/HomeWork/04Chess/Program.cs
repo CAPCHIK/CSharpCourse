@@ -32,7 +32,26 @@ namespace ConsoleApplication
 
         public static void Main(string[] args)
         {
+            Console.OutputEncoding = System.Text.Encoding.Unicode;
+            Console.InputEncoding = System.Text.Encoding.Unicode;
             Console.WriteLine("Hello World!");
+
+			Console.WriteLine("Задача №4. Шахматы"); 
+			int a, b, a1, b1;
+			Console.WriteLine("Введите числа: ");
+			a = int.Parse(Console.ReadLine());
+			b = int.Parse(Console.ReadLine()); 
+			a1 = int.Parse(Console.ReadLine());
+			b1 = int.Parse(Console.ReadLine());
+			if (((a == a1-1) & (b == b1)) | ((a == a1) & (b == b1-1)) | ((a == a1-1) & (b == b1-1))) 
+				{
+					Console.WriteLine("ДА");
+				}
+				else	
+				{
+					Console.WriteLine("НЕТ");
+				}
+
         }
     }
 }
