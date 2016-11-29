@@ -21,6 +21,7 @@ namespace ConsoleApplication
         //Входные данные
         //2
         //Выходные данные
+
         //1 2         
         //4 3
 
