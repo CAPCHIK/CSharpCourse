@@ -1,0 +1,5 @@
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\Less5\Code\obj\Debug\netcoreapp1.0\Code.AssemblyInfo.cs
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\Less5\Code\bin\Debug\netcoreapp1.0\Code.dll
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\Less5\Code\bin\Debug\netcoreapp1.0\Code.pdb
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\Less5\Code\obj\Debug\netcoreapp1.0\Code.dll
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\Less5\Code\obj\Debug\netcoreapp1.0\Code.pdb
