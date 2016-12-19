@@ -1,0 +1,46 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "295cbffc453a05f1f07c9ea23190a9e583b31478"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "totalproject/1.0.0": {
+        "dependencies": {
+          "Microsoft.NET.Sdk": "1.0.0-alpha-20161104-2"
+        },
+        "runtime": {
+          "TotalProject.dll": {}
+        }
+      },
+      "microsoft.net.sdk/1.0.0-alpha-20161104-2": {
+        "dependencies": {
+          "NuGet.Build.Tasks.Pack": "4.0.0-rc-2048"
+        }
+      },
+      "nuget.build.tasks.pack/4.0.0-rc-2048": {}
+    }
+  },
+  "libraries": {
+    "totalproject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "microsoft.net.sdk/1.0.0-alpha-20161104-2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JrhQnxI5p4T4lawCG8oId7fX9BQX5vdy+gD5Q0rBMssnuNSwdxcUIIWEo9bdDmNTt8IzUjeKKlsynNwVBBH7Kw==",
+      "path": "microsoft.net.sdk/1.0.0-alpha-20161104-2",
+      "hashPath": "microsoft.net.sdk.1.0.0-alpha-20161104-2.nupkg.sha512"
+    },
+    "nuget.build.tasks.pack/4.0.0-rc-2048": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9eDCeowAkjtRN+Dl15t6RzcSC46R1MYiFGZJsYgVCAR93RRVIacU7k0WRWTiFNI1wkPxXCpvN2HKK4L6pGQXDA==",
+      "path": "nuget.build.tasks.pack/4.0.0-rc-2048",
+      "hashPath": "nuget.build.tasks.pack.4.0.0-rc-2048.nupkg.sha512"
+    }
+  }
+}

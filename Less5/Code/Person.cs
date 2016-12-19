@@ -7,9 +7,9 @@ public class Person
         set {name = value;}
     }
 
-    public Person(string _name)
+    public Person(string name)
     {
-        name = _name;
+        this.name = name;
     }
 
     public virtual void Say()

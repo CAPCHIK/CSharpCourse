@@ -1,0 +1,5 @@
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\TotalProject\bin\Debug\netcoreapp1.0\TotalProject.dll
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\TotalProject\bin\Debug\netcoreapp1.0\TotalProject.pdb
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\TotalProject\obj\Debug\netcoreapp1.0\TotalProject.AssemblyInfo.cs
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\TotalProject\obj\Debug\netcoreapp1.0\TotalProject.dll
+C:\Users\Maksim\OneDrive\MTU\StudentActive\SharpCourse\Code\TotalProject\obj\Debug\netcoreapp1.0\TotalProject.pdb

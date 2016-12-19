@@ -1,0 +1,1 @@
+{"inputs":["C:\\Less 5\\T\\project.json","C:\\Less 5\\T\\project.lock.json","C:\\Less 5\\T\\Program.cs"],"outputs":["C:\\Less 5\\T\\bin\\Debug\\netcoreapp1.0\\T.dll","C:\\Less 5\\T\\bin\\Debug\\netcoreapp1.0\\T.pdb","C:\\Less 5\\T\\bin\\Debug\\netcoreapp1.0\\T.deps.json","C:\\Less 5\\T\\bin\\Debug\\netcoreapp1.0\\T.runtimeconfig.json"],"buildArguments":{"version-suffix":null}}
